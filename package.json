@@ -1,0 +1,13 @@
+{
+  "name": "witz-api",
+  "version": "1.0.0",
+  "description": "Eine einfache Witze-API auf Vercel",
+  "main": "api/witz.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "keywords": ["api", "witze", "jokes", "vercel"],
+  "author": "",
+  "license": "MIT"
+}
