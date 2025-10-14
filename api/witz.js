@@ -94,9 +94,19 @@ export default function handler(req, res) {
 
   
   const zufall = witze[Math.floor(Math.random() * witze.length)];
-  
-  res.status(200).json({ 
+
+  const berlinZeit = new Date().toLocaleString('de-DE', {
+    timeZone: 'Europe/Berlin',
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  }).replace(',', '');
+
+  res.status(200).json({
     witz: zufall,
-    timestamp: new Date().toISOString(),
+    timestamp: berlinZeit
   });
 }
