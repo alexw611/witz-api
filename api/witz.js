@@ -89,7 +89,8 @@ export default function handler(req, res) {
   "Warum können Kühe keine Witze erzählen? Weil sie immer muhen müssen!",
   "Wie nennt man einen Bären, der Computer repariert? Tech-Bär!",
   "Was macht eine Schnecke auf dem Motorrad? Sie zieht Schleimspuren!",
-  "Warum ist der Donut traurig? Weil er immer ein Loch im Herzen hat!"
+  "Warum ist der Donut traurig? Weil er immer ein Loch im Herzen hat!",
+  "Kommt ein Cowboy aus dem Friseur, Pony weg."
 ];
 
   
